@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!---
+Page 2:
+-Navigation Bar linking to all 4 pages
+-HTML form with a minimum of:
+-1 fieldset
+-3 inputs
+-2 text, check
+-1 checkbox
+-1 textarea
+-Appropriate labels for the above
+-1 button
+----->
+
+
+<title>Projects</title>
+
+<!---Navigation Bar: Home, Projects, Interests, Other-->
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="links.html">Links</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1 class="projects_h1">Projects</h1><br>
+
+    <form class="projects">
+        <fieldset class="miniSurvey">
+          <legend>Mini Survey</legend>
+
+          <label for="hobby">Favorite Game</label><br>
+          <input type="text" id="game" name="activity"><br>
+
+          <label for="animal">Favorite Animal</label><br>
+          <input type="text" id="animal" name="activity"><br>
+
+          <label for="food">Favorite Food</label><br>
+          <input type="text" id="food" name="activity"><br>
+
+          <input type="radio" id="relationship" name="checkbox">
+          <label for="relationship">Single</label><br>
+
+          <input type="radio" id="noRelationship" name="checkbox">
+          <label for="noRelationship">Not Single</label><br>
+
+          <label for="etc">What's your best joke?</label><br>
+          <textarea id="etc" name="etc" rows="4" cols="50"></textarea><br>
+
+          <button type="button">Submit</button>
+
+        </fieldset>
+      </form>
+
+
+</body>
+
+</html>

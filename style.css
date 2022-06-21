@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #4b7cc4;
+}
+
+li {
+    font-family: "Kdam Thmor Pro";
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kdam Thmor Pro";
+}
+
+.main-page img {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+fieldset {
+    display: block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.projects_h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.miniSurvey {
+    width: 600px;
+    margin: auto;
+}
+
+.projects_p {
+    display: flex;
+    justify-content: center;
+}
+
+
+legend {
+    align-items: center;
+}
+
+
+.gallery_h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20% 20% 20%;
+    margin: auto;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.desc {
+    padding-bottom: 15px;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links_h1 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+}
+
+.bunchLinks {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px;
+}
